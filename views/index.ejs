@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Hero Section -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Welcome to Our Platform</h1>
+      <p class="lead mb-4">Manage your products efficiently and effortlessly with our dashboard.</p>
+      <a href="/" class="btn btn-primary btn-lg shadow">Go to Dashboard</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Features</h2>
+        <p class="text-muted">Everything you need to manage your products and users in one place.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="fas fa-box fa-3x text-primary mb-3"></i>
+              <h5 class="card-title fw-semibold">Product Management</h5>
+              <p class="card-text text-muted">Add, edit, and track your products with ease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="fas fa-tags fa-3x text-success mb-3"></i>
+              <h5 class="card-title fw-semibold">Category Filters</h5>
+              <p class="card-text text-muted">Organize and filter products efficiently.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="fas fa-users fa-3x text-warning mb-3"></i>
+              <h5 class="card-title fw-semibold">User Friendly</h5>
+              <p class="card-text text-muted">A simple dashboard designed for smooth navigation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-primary text-white py-5 text-center">
+    <div class="container">
+      <h3 class="fw-bold mb-3">Ready to get started?</h3>
+      <p class="mb-4">Sign up and explore the full potential of our platform today.</p>
+      <a href="/register" class="btn btn-light btn-lg shadow">Register Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-dark text-white py-3 text-center">
+    <div class="container">
+      <p class="mb-0">© <%= new Date().getFullYear() %> My App. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
